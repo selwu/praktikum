@@ -1,0 +1,10 @@
+@import url(__subtitle/cover__subtitle.css);
+@import url(__bg/cover__bg.css);
+@import url(__title/cover__title.css);
+@import url(_position/cover_position.css);
+
+.cover {
+  position: relative;
+  max-width: 1184px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}

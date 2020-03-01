@@ -1,0 +1,8 @@
+@import url(__item/photo-grid__item.css);
+@import url(__container/photo-grid__container.css);
+@import url(_position/photo-grid_position.css);
+
+.photo-grid {
+  max-width: 1184px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}

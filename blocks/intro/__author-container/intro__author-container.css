@@ -1,0 +1,4 @@
+.intro__author-container {
+  display: flex;
+  flex-flow: column;
+}

@@ -1,0 +1,15 @@
+@import url(__copyright/footer__copyright.css);
+@import url(__link/footer__link.css);
+@import url(__links/footer__links.css);
+@import url(_position/footer_position.css);
+@import url(__nav/footer__nav.css);
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1184px;
+  padding-bottom: 40px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}

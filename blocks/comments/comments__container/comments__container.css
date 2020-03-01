@@ -1,0 +1,8 @@
+.comments__container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 382px);
+  grid-column-gap: 19px;
+}

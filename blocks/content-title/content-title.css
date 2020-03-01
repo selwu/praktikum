@@ -1,0 +1,15 @@
+@import url(_line-height/content-title_line-height.css);
+@import url(_position/content-title_position.css);
+
+.content-title{
+  max-width: 800px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 78px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto 30px;
+  padding: 0;
+}

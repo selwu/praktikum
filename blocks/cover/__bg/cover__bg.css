@@ -1,0 +1,24 @@
+.cover__bg {
+  display: block;
+  text-decoration: none;
+  background-image: url(../../../images/baikal-dogs.png);
+  width: 1184px;
+  height: 594px;
+  background-size: cover;
+}
+
+.cover__bg::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all .2s linear;
+  opacity: .3;
+  background: #2A2C2F;
+}
+
+.cover__bg:hover::after {
+  opacity: 0.8;
+}

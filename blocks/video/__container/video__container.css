@@ -1,0 +1,5 @@
+.video__container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 583px);
+  grid-column-gap: 18px;
+}

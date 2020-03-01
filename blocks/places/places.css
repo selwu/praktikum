@@ -1,0 +1,7 @@
+@import url(_position/places_position.css);
+
+
+.places {
+  max-width: 984px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}

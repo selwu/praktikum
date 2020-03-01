@@ -1,0 +1,29 @@
+@import url(_place/video__item_place_komchatka.css);
+@import url(_place/video__item_place_observatoty.css);
+
+.video__item{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 5px;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.video__item::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 5px;
+  transition: all .2s linear;
+  background: #000000;
+  opacity: .5;
+}
+
+.video__item:hover::after{
+  opacity: .8;
+}
