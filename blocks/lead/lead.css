@@ -8,6 +8,13 @@
 
 
 .lead {
-  max-width: 985px;
+  max-width: 984px;
   font-family: Inter, Arial, Helvetica, sans-serif;
+  padding: 0 48px 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    padding: 0;
+  }
 }
