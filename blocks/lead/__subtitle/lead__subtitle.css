@@ -1,4 +1,5 @@
  .lead__subtitle {
+  border: 1px dashed red;
    margin: 35px auto 70px;
    padding: 0;
    max-width: 583px;
@@ -13,5 +14,6 @@
    .lead__subtitle {
     font-size: 16px;
     line-height: 23px;
+    max-width: 270px;
    }
  }
