@@ -1,4 +1,5 @@
 .intro__texts-info {
+  border: 1px dashed red;
   list-style-type: none;
   font-style: normal;
   font-weight: normal;
@@ -7,4 +8,11 @@
   color: #fff;
   padding: 0;
   margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__texts-info {
+    font-size: 12px;
+    line-height: 19px;
+  }
 }
