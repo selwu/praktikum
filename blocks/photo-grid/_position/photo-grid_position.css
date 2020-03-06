@@ -1,3 +1,9 @@
 .photo-grid_position {
   margin: 0 auto 93px;
 }
+
+@media screen and (max-width: 767px) {
+  .photo-grid_position {
+    margin: 0 auto 67px;
+  }
+}

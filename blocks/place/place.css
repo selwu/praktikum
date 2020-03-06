@@ -9,8 +9,22 @@
 
 .place {
   display: grid;
-  grid-template-columns: 460px 1fr;
+  grid-template-columns: 1fr 1.05fr;
   grid-column-gap: 40px;
   grid-row-gap: 55px;
   margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    grid-column-gap: 32px;
+    grid-row-gap: 45px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    display: block;
+    margin: 0 auto 55px;
+  }
 }

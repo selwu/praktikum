@@ -7,3 +7,19 @@
   line-height: 65px;
   color: #fff;
 }
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    max-width: 330px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    padding: 0 16px 32px;
+  }
+}

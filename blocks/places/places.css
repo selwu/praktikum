@@ -3,5 +3,18 @@
 
 .places {
   max-width: 984px;
+  padding: 0 48px 0;
   font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    padding: 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    padding: 0;
+  }
 }

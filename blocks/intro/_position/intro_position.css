@@ -1,3 +1,10 @@
 .intro_position {
   margin: 0 auto 88px;
 }
+
+@media screen and (max-width: 767px) {
+  .intro_position {
+    margin: 0 auto 66px;
+  }
+  
+}

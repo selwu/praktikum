@@ -2,6 +2,7 @@
 @import url(_place/video__item_place_observatoty.css);
 
 .video__item{
+  border: 1px dashed red;
   position: relative;
   display: flex;
   flex-direction: column;
