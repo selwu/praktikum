@@ -1,3 +1,9 @@
 .comments_position {
   margin: 0 auto 95px;
 }
+
+@media screen and (max-width: 585px) {
+  .comments_position {
+    margin: 0 auto 0;
+  }
+}

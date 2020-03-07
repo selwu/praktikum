@@ -1,3 +1,9 @@
 .cover_position {
   margin: 0 auto 82px;
 }
+
+@media screen and (max-width: 585px) {
+  .cover_position {
+    margin: 0 auto 60px;
+  }
+}

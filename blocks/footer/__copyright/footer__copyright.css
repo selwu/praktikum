@@ -8,3 +8,9 @@
   text-align: right;
   color: #fff;
 }
+
+@media screen and (max-width: 585px) {
+  .footer__copyright {
+    margin-top: 25px;
+  }
+}

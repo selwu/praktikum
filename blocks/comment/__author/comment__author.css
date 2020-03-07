@@ -4,4 +4,11 @@
   font-size: 14px;
   line-height: 24px;
   color: #FFFFFF;
+  order: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .comment__author {
+    margin-bottom: 15px;
+  }
 }

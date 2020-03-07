@@ -1,7 +1,15 @@
 @import url(comments__container/comments__container.css);
 @import url(_position/comments_position.css);
 
-.comments{
+
+.comments {
   max-width: 1184px;
+  padding: 0 48px 0;
   font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .comments {
+    padding: 0 16px 0;
+  }
 }

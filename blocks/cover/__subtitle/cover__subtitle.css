@@ -2,11 +2,27 @@
   position: relative;
   z-index: 1;
   max-width: 382px;
-  margin: 120px 0 0;
+  margin: 0;
+  padding-bottom: 40px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 26px;
   text-align: center;
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 30px;
+    max-width: 288px;
+  }
 }

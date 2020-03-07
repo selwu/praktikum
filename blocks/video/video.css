@@ -8,7 +8,19 @@
 
 
 .video{
-  border: 1px dashed red;
   max-width: 1184px;
+  padding: 0 48px 0;
   font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1023px) {
+  .video {
+    padding: 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video {
+    padding: 0 16px 0;
+  }
 }

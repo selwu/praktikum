@@ -1,7 +1,13 @@
 .comment__image {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   width: 97px;
   height: 97px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .comment__image {
+    margin-bottom: 15px;
+  }
 }

@@ -1,3 +1,11 @@
 .video_position {
   margin: 0 auto 105px;
 }
+
+
+
+@media screen and (max-width: 425px) {
+  .video_position {
+    margin: 0 auto 65px;
+  }
+}

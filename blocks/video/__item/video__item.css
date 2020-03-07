@@ -2,14 +2,18 @@
 @import url(_place/video__item_place_observatoty.css);
 
 .video__item{
-  border: 1px dashed red;
+  box-sizing: border-box;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  padding: 30px 0px 30px 30px;
   border-radius: 5px;
-  background-size: cover;
   text-decoration: none;
+  width: 100%;
+  min-height: 323px;
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 .video__item::after {
@@ -27,4 +31,29 @@
 
 .video__item:hover::after{
   opacity: .8;
+}
+
+@media screen and (max-width: 1279px) {
+  .video__item {
+    min-height: 288px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .video__item {
+    min-height: 200px;
+    padding: 24px 0px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__item {
+    padding: 24px 0px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video__item {
+    padding: 16px 0px 16px 16px;
+  }
 }

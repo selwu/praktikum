@@ -1,3 +1,9 @@
 .content-title.content-title_position {
-  margin: 0 auto 40px;
+  margin: 0 auto 30px;
+}
+
+@media screen and (max-width: 425px) {
+  .content-title.content-title_position {
+    margin: 0 auto 25px;
+  }
 }

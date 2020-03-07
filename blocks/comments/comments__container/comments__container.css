@@ -3,6 +3,22 @@
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 382px);
+  grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 19px;
+}
+
+@media screen and (max-width: 768px) {
+  .comments__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 382px;
+    margin: auto;
+    padding-top: 37px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .comments__container {
+    padding-top: 15px;
+  }
 }

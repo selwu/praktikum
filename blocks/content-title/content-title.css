@@ -1,4 +1,3 @@
-@import url(_line-height/content-title_line-height.css);
 @import url(_position/content-title_position.css);
 
 .content-title{
@@ -9,7 +8,23 @@
   font-size: 72px;
   line-height: 78px;
   text-align: center;
-  color: #FFFFFF;
-  margin: 0 auto 30px;
+  color: #fff;
   padding: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .content-title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content-title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+
+

@@ -1,14 +1,14 @@
 .cover__bg {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
   text-decoration: none;
   background-image: url(../../../images/baikal-dogs.png);
   width: 100%;
-  padding-bottom: 10%;
+  min-height: 594px;
   background-size: cover;
-  background-position: center;
 }
 
 .cover__bg::after {
@@ -25,4 +25,23 @@
 
 .cover__bg:hover::after {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__bg {
+    min-height: 562px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__bg {
+    min-height: 500px;
+    padding: 0 16px 0;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .cover__bg {
+    min-height: 272px;
+  }
 }
