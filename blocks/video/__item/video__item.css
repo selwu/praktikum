@@ -12,8 +12,8 @@
   text-decoration: none;
   width: 100%;
   min-height: 323px;
-  object-fit: cover;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .video__item::after {

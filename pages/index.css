@@ -16,12 +16,4 @@
 @import url(../blocks/barentsburg/barentsburg.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/nav/nav.css);
-
-
-
-
-
-.page {
-  background-color: #2A2C2F;
-  color: #fff;
-}
+@import url(../blocks/page/page.css);
