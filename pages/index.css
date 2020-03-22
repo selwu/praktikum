@@ -1,5 +1,4 @@
-@import url(../font/inter.css);
-@import url('../blocks/header/header.css');
+@import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -23,8 +22,8 @@
   font-style:  normal;
   font-weight: normal;
   font-display: swap;
-  src: url("../font/Inter-Regular.woff2") format("woff2"),
-       url("../font/Inter-Regular.woff") format("woff");
+  src: url(../font/Inter-Regular.woff2) format("woff2"),
+       url(../font/Inter-Regular.woff) format("woff");
 }
 
 @font-face {
@@ -32,8 +31,8 @@
   font-style:  normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../font/Inter-Medium.woff2") format("woff2"),
-       url("../font/Inter-Medium.woff") format("woff");
+  src: url(../font/Inter-Medium.woff2) format("woff2"),
+       url(../font/Inter-Medium.woff) format("woff");
 }
 
 @font-face {
@@ -41,8 +40,8 @@
   font-style:  normal;
   font-weight: 900;
   font-display: swap;
-  src: url("../font/Inter-Black.woff2") format("woff2"),
-       url("../font/Inter-Black.woff") format("woff");
+  src: url(../font/Inter-Black.woff2") format("woff2"),
+       url(../font/Inter-Black.woff) format("woff");
 }
 
 @font-face {
@@ -50,6 +49,6 @@
   font-style:  normal;
   font-weight: bold;
   font-display: swap;
-  src: url("../font/Inter-Bold.woff2") format("woff2"),
-       url("../font/Inter-Bold.woff") format("woff");
+  src: url(../font/Inter-Bold.woff2) format("woff2"),
+       url(../font/Inter-Bold.woff) format("woff");
 }
