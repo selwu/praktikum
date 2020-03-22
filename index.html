@@ -5,18 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
-  <!-- Отлично! правильно оформлен head -->
   <title>Путешествие</title>
 </head>
 <body class="page">
   <header class="header header_position">
     <img src="images/__logo.svg" alt="логотип сайта" class="header__logo">
-    <!-- Отлично! логотип загружен в векторном формате -->
     
     <ul class="header__langs">
       <li><a class="header__lang header__lang_active" href="#">Ru</a></li>
       <li><a class="header__lang" href="#">En</a></li>
-      <!-- Отлично! Выбранный язык реализован с помощью модификатора -->
     </ul>
   </header>
   <main class="main">
@@ -27,7 +24,6 @@
         <img src="images/railwindow.jpg" alt="дорога по России" class="lead__image">
         <figcaption  class="lead__caption">ваша полка — верхняя</figcaption>
       </figure>
-      <!-- Отлично! Вы используете в работе семантический тег figure -->
     </section>
 
     <section class="intro intro_position">
@@ -180,7 +176,6 @@
       <p class="content-subtitle content-subtitle_position">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
       <div class="video__container">
         <a href="https://vimeo.com/81106671" target="_blank" class="video__item  video__item_place_komchatka">
-          <!-- Отлично! Фоновое изображение вставлено с помощью css и модификатора -->
           <img class="video__icon" src="images/__icon_play.svg" alt="воспроизвести видео">
           <p class="video__duration">6:30</p>
           <h3 class="video__title">Colors of Kamchatka</h3>
@@ -205,7 +200,6 @@
             <p class="comment__quote-text">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</p>
             <cite class="comment__author">Виктор Лягушкин</cite>
           </blockquote>
-          <!-- Отлично! Для цитаты использован семантический тег blockquote -->
         </li>
         <li class="comment">
           <img src="images/hafizov.jpg" alt="Иван Хафизов" class="comment__image">
@@ -226,7 +220,6 @@
           </blockquote>
         </li>
       </ul>
-      <!-- Отлично! Вы используете в разметке семантические теги списка ul -->
     </section>
 
     <article class="cover cover_position">
@@ -247,65 +240,8 @@
         <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
       </ul>
     </nav>
-    <!-- Отлично! навигация выделена списком nav -->
-
     <p class="footer__copyright">&copy; 2019. Саша</p>
-		<!-- Отлично! Для копирайта вы используете html мнемоники -->
   </footer>
 
 </body>
 </html>
-
-
-
-<!-- В целом по работе: 
-
-      Отлично! Понравилось в работе:
-
-        - Файловая система и классы по БЭМ
-        - Страница валидна
-        - Использованы семантические теги и списки
-        - Для подзаголовков использованы параграфы
-        - Для переиспользования в проекте есть блоки
-        - Размечены все макеты
-        - Нет горизонтальных скроллов
-        - На большом экране контент центрируется
-        - Все брейкпоинты внешне соответствуют макетам
-        - Учтены изменения шрифтов и размров блоков
-        - Аккуратное выравнивание блоков на странице
-
-    Надо исправить:
-
-    
-  -+ вынесите стилизацию page в свой css файл
-  
-  -+ на 768 и меньше фон в видео расположен не так, как в макете
-
-  -+ на 320 расстояние между .photo-grid__item 8px
-	
-
-    Можно улучшить:
-
-    -+ Комментарии в разметке
-
-    -+ для страницы min-width: 320px;
-
-  Пожалуйста, не удаляйте комментарии
-Исправленные комментарии помечайте +
-
-Для получения зачета исправьте комментарии "Надо исправить"
-
-Полезные материалы:
-
-Масштабируемые шрифты
-- https://codepen.io/Maks113/pen/dgWpxE
-- https://codepen.io/CrocoDillon/pen/fBJxu
-- https://codepen.io/TrevorJTClarke/pen/GoJYOo
-- https://codepen.io/podolskiis/pen/erxmKW
-
-Плотность пикселей
-- https://vc.ru/design/19864-pixels-in-mobile-design
-
-Что должен знать фронтенд-разработчик
-- https://habr.com/ru/company/netologyru/blog/327294/
--->
